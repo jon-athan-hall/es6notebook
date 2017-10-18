@@ -6,8 +6,8 @@
  */
 const game = document.querySelector('.game');
 game.addEventListener('click', function(e) {
-  let firstClass = 'opening';
-  let secondClass = 'open';
+  let firstClass = 'game--opening';
+  let secondClass = 'game--open';
 
   /**
    * Destructuring at work here. Look at that swap!
