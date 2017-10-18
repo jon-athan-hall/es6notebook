@@ -10,7 +10,7 @@
 }
 
 /**
- * A for loop is a block, so this using let will ensure
+ * A for loop is a block, so using let will ensure
  * the expected number is displayed. If var was used, the
  * value of 10 would leak out and be used for all the logs.
  */
