@@ -5,8 +5,8 @@
  * from messing with the window Object's own variables.
  */
 {
-  let game = "Agricola";
-  const designer = "Uwe Rosenberg";
+  let game = 'Agricola';
+  const designer = 'Uwe Rosenberg';
 }
 
 /**
