@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>15 - Tooling</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <script type="text/javascript" src="options.js"></script>
+  <script src="https://jspm.io/system@0.19.js"></script>
+  <script>
+    /**
+     * SystemJS is a good option for a quick hack, when
+     * you don't need to go through a whole webpack setup.
+     */
+    System.config({ transpiler: 'babel' });
+    System.import('./main.js');
+  </script>
+</body>
+</html>

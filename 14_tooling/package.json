@@ -1,0 +1,11 @@
+{
+  "name": "14_tooling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "options.js",
+  "scripts": {
+    "babel": "babel app.js --watch -out-file app-compiled.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
