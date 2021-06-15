@@ -19,7 +19,7 @@ function convertScores(multiplier, ...scores) {
 convertScores(1.25, 10, 8, 7.5, 7, 8.5, 5);
 
 /**
- * The rest operator can also be combined withdestructuring.
+ * The rest operator can also be combined with destructuring.
  */
 const game = ['Castles of Burgundy', 'Stefan Feld', 6.5, 8, 10, 9.5];
 const [title, designer, ...ratings] = game;

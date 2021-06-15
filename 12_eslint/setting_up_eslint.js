@@ -21,3 +21,13 @@
  * Hone your own eslintrc file as you build apps. Fix
  * the rules as they make sense for you and your team.
  */
+
+/**
+ * You can set expected global variables at the top of file
+ * with a comment block. Also, lint options can be disabled
+ * by file and even by line.
+ */
+
+/* globals ga twtter */
+/* eslint-disable no-extend-native */
+/* eslint-enable no-extend-native */
